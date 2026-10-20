@@ -1,0 +1,8 @@
+{
+  "name": "Remix AutoNFS-e Federal - Emissão \u0026 Automação Inteligente2010-16:27",
+  "description": "Sistema de emissão automática e programada de NFS-e Padrão Nacional com envio automático por E-mail com DANFSE em PDF e XML assinado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

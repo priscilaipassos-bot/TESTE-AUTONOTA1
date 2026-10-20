@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="2" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0f172a" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Base com sombra -->
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bgGrad)" filter="url(#shadow)" />
+  
+  <!-- Borda de destaque suave -->
+  <rect x="4.5" y="4.5" width="55" height="55" rx="13.5" stroke="#93c5fd" stroke-opacity="0.5" stroke-width="1" />
+
+  <!-- Folha / Documento Fiscal dobrado -->
+  <path d="M19 16C19 14.8954 19.8954 14 21 14H35L45 24V48C45 49.1046 44.1046 50 43 50H21C19.8954 50 19 49.1046 19 48V16Z" fill="#ffffff" />
+  <!-- Dobra do topo da nota -->
+  <path d="M35 14V22C35 23.1046 35.8954 24 37 24H45L35 14Z" fill="#bfdbfe" />
+
+  <!-- Linhas indicadoras da NFS-e -->
+  <rect x="23.5" y="28" width="17" height="2.5" rx="1.25" fill="#2563eb" />
+  <rect x="23.5" y="33" width="13" height="2.5" rx="1.25" fill="#60a5fa" />
+  <rect x="23.5" y="38" width="9" height="2.5" rx="1.25" fill="#93c5fd" />
+
+  <!-- Selo Oficial Verde de NFS-e Autorizada -->
+  <circle cx="41" cy="42" r="9.5" fill="#10b981" stroke="#ffffff" stroke-width="2.5" />
+  <path d="M37.5 42L40 44.5L45 39.5" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
